@@ -1,0 +1,121 @@
+.banner {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+
+    background-color: #FDF7F1;
+    width: 100%;
+    padding: 80px 0 30px;
+    display: flex;
+    margin-bottom: 265px;
+    text-align: center;
+
+}
+
+
+.sobre-texto {
+    background-color: white;
+    width: 516px;
+    padding: 33px 40px 40px 40px;
+    margin: 0px 170px 0px 170px;
+    border-radius: 54px;
+
+    text-align: left;
+    font-size: 18px;
+    
+}
+
+
+.sobre-texto h1 {
+    font-size: 50px;
+    text-align: left;
+
+
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #4A218D;
+    background-image: linear-gradient(to right, #ccc, #4A218D, #ccc);
+    margin-bottom: 20px;
+}
+
+.pink {
+    color: #F052B6;
+}
+
+
+.como-funciona {
+    margin-left: 300px;
+    align-items: center;
+}
+
+.como-funciona-container {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+.como-funciona-item {
+    background-color: #F2C2E1;
+    width: 230px;
+    height: 636px;
+    padding-bottom: 10px;
+    margin: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.como-funciona-descricao {
+    background-color: white;
+    width: 195px;
+    height: 324px;
+    padding: 30px 0px 5px;
+
+    border-radius: 20px;
+    text-align: center;
+
+
+}
+
+.como-funciona-descricao p {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.como-funciona h2 {
+    font-size: 64px;
+    text-align: center;
+}
+
+.como-funciona h3 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.como-funciona-img {
+    background-color: white;
+    width: 190px;
+    height: 190px;
+    margin: 20px;
+
+
+    border-radius: 90px;
+    border: 2px solid #4A218D;
+    display: flex;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}

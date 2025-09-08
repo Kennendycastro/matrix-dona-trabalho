@@ -1,0 +1,29 @@
+.nav-bar ul  {
+    padding: 40px;
+    display: grid;
+    align-items: center;
+    grid-auto-flow: column;
+    gap: 20px;
+    font-size: 16px;
+    margin-left: 152px;
+
+}
+
+
+
+.revendedor{
+    background-color: #4A218D;
+    box-sizing: border-box;
+    color: #D9D9D9;
+    padding: 10px;
+    
+}
+
+.logo{
+    width: 46px;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+
