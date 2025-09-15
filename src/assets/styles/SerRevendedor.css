@@ -1,0 +1,275 @@
+/* --- Variáveis de cor e fontes --- */
+:root {
+  --roxo-principal: #4a148c;
+  --roxo-claro: #e1d4f4;
+  --roxo-hover: #6a1b9a;
+  --fundo-pagina: #fff8f5;
+  --borda-input: #333;
+  --vermelho-erro: #b71c1c;
+  --fundo-erro: #ffcdd2;
+}
+
+/* --- Estilos gerais do corpo da página --- */
+body {
+  font-family: "Varela Round", sans-serif;
+  background: var(--fundo-pagina);
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin-top: 0;
+}
+
+/* --- Cabeçalho --- */
+header {
+  background: var(--fundo-pagina);
+  padding: 15px 50px;
+  border-bottom: 2px solid var(--roxo-principal);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* --- Seção do Banner Principal --- */
+.banner-revendedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.banner-img {
+  width: 90%;
+  max-width: 1100px;
+  height: auto;
+  display: block;
+}
+
+/* --- Ícones de Revendedor --- */
+.icones-revendedor {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+  z-index: 10;
+}
+
+.icones-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid var(--roxo-claro);
+  border-radius: 20px;
+  padding: 20px 30px;
+  gap: 40px;
+  margin-bottom: 80px;
+  width: 90%;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icone-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 140px;
+  background-color: var(--roxo-principal);
+  color: #fff;
+  text-align: center;
+  border-radius: 12px;
+  padding: 10px;
+  border: 2px solid #000;
+}
+
+.icone-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+  background: #fff;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.icone-circle img {
+  width: 100%;
+  height: auto;
+}
+
+/* --- Seção "Como Funciona?" --- */
+
+.como-funciona {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 60px 20px 60px 20px;
+  margin-bottom: 50px;
+}
+
+.como-funciona h2 {
+  color: #f052b6;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.como-funciona-conteudo {
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 50px 40px;
+  width: 90%;
+  min-height: 120px;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.como-funciona-conteudo p {
+  color: #000;
+  font-size: 1.1em;
+  text-align: justify;
+}
+
+/* --- Seção "Passo a Passo" e "Benefícios" --- */
+.passo-beneficios-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  width: 70%;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 80px;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.passo-beneficios {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 132px;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+.passo-passo,
+.beneficios {
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  min-width: 280px;
+  flex: 1;
+  text-align: center;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.passo-passo h3,
+.beneficios h3 {
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.passo-passo ul,
+.beneficios ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.passo-passo li,
+.beneficios li {
+  background-color: var(--roxo-principal);
+  color: #fff;
+  padding: 10px;
+  border-radius: 32px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.botao-revendedor {
+  background-color: var(--roxo-principal);
+  color: white;
+  padding: 12px 30px;
+  border-radius: 32px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.1em;
+  width: auto;
+  min-width: 200px;
+  text-align: center;
+  margin-top: 48px;
+}
+
+/* --- Media Queries para responsividade --- */
+@media (max-width: 768px) {
+  .banner-img {
+    width: 100%;
+    height: auto;
+  }
+  .icones-wrapper {
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 20px;
+  }
+  .icone-item {
+    width: 150px;
+    height: 150px;
+    max-width: 250px;
+  }
+  .passo-beneficios {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .passo-passo,
+  .beneficios {
+    width: 80%;
+    max-width: 350px;
+  }
+  .botao-revendedor {
+    width: 80%;
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .como-funciona-conteudo {
+    padding: 20px;
+  }
+  .passo-passo,
+  .beneficios {
+    min-width: auto;
+  }
+}

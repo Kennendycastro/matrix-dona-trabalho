@@ -1,0 +1,167 @@
+/* --- Variáveis de cor e fontes --- */
+:root {
+    --roxo-principal: #4a148c;
+    --roxo-claro: #e1d4f4;
+    --roxo-hover: #6a1b9a;
+    --fundo-pagina: #fff8f5;
+    --borda-input: #333;
+    --vermelho-erro: #b71c1c;
+    --fundo-erro: #ffcdd2;
+}
+
+/* --- Estilos globais para a página --- */
+body {
+    font-family: 'Varela Round', sans-serif;
+    background: var(--fundo-pagina);
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin-top: 0;
+}
+
+/* --- Cabeçalho --- */
+header {
+    background: var(--fundo-pagina);
+    padding: 15px 50px;
+    border-bottom: 2px solid var(--roxo-principal);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* --- Seção de Contato --- */
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; 
+    padding: 20px;
+}
+
+.contato-container {
+    display: flex;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+}
+
+/* --- Lado da Imagem --- */
+.imagem-lado {
+    background-image: url('../Imgs/FaleConosco/homem-notebook.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    min-height: 500px;
+    display: none; 
+}
+
+/* --- Lado do Formulário --- */
+.form-lado {
+    padding: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-lado h2 {
+    text-align: center;
+    color: var(--roxo-principal);
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+/* --- Estilos do Formulário --- */
+#form-contato {
+    display: flex;
+    flex-direction: column;
+}
+
+#form-contato label {
+    font-weight: bold;
+    color: var(--borda-input);
+    margin-bottom: 5px;
+}
+
+#form-contato input,
+#form-contato textarea {
+    padding: 12px;
+    border: 1px solid var(--borda-input);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1em;
+}
+
+#form-contato textarea {
+    resize: vertical;
+}
+
+#contador {
+    text-align: right;
+    font-size: 0.9em;
+    color: #555;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+#form-contato button {
+    background-color: var(--roxo-principal);
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+#form-contato button:hover {
+    background-color: var(--roxo-hover);
+}
+
+/* --- Mensagens de Status --- */
+.mensagem-status {
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.mensagem-status.mensagem-sucesso {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.mensagem-status.mensagem-erro {
+    background-color: var(--fundo-erro);
+    color: var(--vermelho-erro);
+}
+
+/* --- Media Queries --- */
+@media (min-width: 768px) {
+    .imagem-lado {
+        display: block; /* Mostra a imagem em telas maiores */
+    }
+    .form-lado {
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .form-lado {
+        padding: 20px;
+    }
+    .form-lado h2 {
+        font-size: 2em;
+    }
+}
