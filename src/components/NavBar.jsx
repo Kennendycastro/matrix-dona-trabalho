@@ -9,7 +9,7 @@ function NavBar() {
             <header>
                 <div className="nav-bar">
                     <nav>
-                        <ul className="itens">
+                        <ul className="itens-c">
                             <img  className= "logo" src= {logo} alt="logo" />
                             <li><Link to="/">Pagina Inicial</Link> </li>
                             <li><Link to= "/FaleConosco"> Fale conosco</Link> </li>
