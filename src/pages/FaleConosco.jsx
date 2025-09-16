@@ -12,13 +12,11 @@ const FaleConosco = () => {
     type: ''
   });
 
-  
   useEffect(() => {
     if (statusMessage.text) {
       const timer = setTimeout(() => {
         setStatusMessage({ text: '', type: '' });
       }, 5000); 
-      
       return () => clearTimeout(timer);
     }
   }, [statusMessage]);
@@ -26,7 +24,6 @@ const FaleConosco = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    
     if (!nome || !email || !assunto || !mensagem) {
       setStatusMessage({
         text: 'Por favor, preencha todos os campos!',
@@ -35,13 +32,11 @@ const FaleConosco = () => {
       return;
     }
 
-   
     setStatusMessage({
       text: 'Mensagem enviada com sucesso!',
       type: 'sucesso'
     });
 
-    
     setNome('');
     setEmail('');
     setAssunto('');
@@ -107,12 +102,10 @@ const FaleConosco = () => {
 
               <button type="submit">Enviar</button>
 
-              {/* Exibe a mensagem de status dinamicamente */}
-              {statusMessage.text && (
-                <div className={`mensagem-status mensagem-${statusMessage.type}`}>
-                  {statusMessage.text}
-                </div>
-              )}
+              {}
+              <div className={`mensagem-status mensagem-${statusMessage.type} ${statusMessage.text ? 'visivel' : ''}`}>
+                {statusMessage.text}
+              </div>
             </form>
           </div>
         </div>

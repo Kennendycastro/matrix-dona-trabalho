@@ -2,8 +2,8 @@
 :root {
     --roxo-principal: #4a148c;
     --roxo-claro: #e1d4f4;
-    --roxo-hover: #6a1b9a;
-    --fundo-pagina: #fff8f5;
+    --roxo-hover: hsl(277, 70%, 35%);
+    --fundo-pagina: white;
     --borda-input: #333;
     --vermelho-erro: #b71c1c;
     --fundo-erro: #ffcdd2;
@@ -25,7 +25,6 @@ main {
 header {
     background: var(--fundo-pagina);
     padding: 15px 50px;
-    border-bottom: 2px solid var(--roxo-principal);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -48,6 +47,7 @@ header {
     width: 90%;
     max-width: 1000px;
     overflow: hidden;
+    margin-bottom: 300px;
 }
 
 /* --- Lado da Imagem --- */
@@ -60,13 +60,13 @@ header {
     display: none; 
 }
 
-/* --- Lado do Formulário --- */
 .form-lado {
     padding: 40px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    min-height: 700px; 
 }
 
 .form-lado h2 {
@@ -132,14 +132,20 @@ header {
     border-radius: 8px;
     text-align: center;
     font-weight: bold;
-    margin-top: 20px;
+    min-height: auto; 
     opacity: 0;
     transition: opacity 0.5s ease;
+    margin-top: 20px;
+    min-height: 20px;
+}
+
+.mensagem-status.visivel {
+    opacity: 1;
 }
 
 .mensagem-status.mensagem-sucesso {
-    background-color: #d4edda;
-    color: #155724;
+    background-color:var(--roxo-claro);
+    color: var(--roxo-principal);
 }
 
 .mensagem-status.mensagem-erro {

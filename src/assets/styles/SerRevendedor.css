@@ -3,7 +3,7 @@
   --roxo-principal: #4a148c;
   --roxo-claro: #e1d4f4;
   --roxo-hover: #6a1b9a;
-  --fundo-pagina: #fff8f5;
+  --fundo-pagina: white;
   --borda-input: #333;
   --vermelho-erro: #b71c1c;
   --fundo-erro: #ffcdd2;
@@ -25,22 +25,22 @@ main {
 header {
   background: var(--fundo-pagina);
   padding: 15px 50px;
-  border-bottom: 2px solid var(--roxo-principal);
   position: sticky;
   top: 0;
   z-index: 1000;
 }
 
 /* --- Seção do Banner Principal --- */
-.banner-revendedor {
+.revendedor-banner {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   margin-top: 30px;
+  margin-bottom: 150px;
 }
 
-.banner-img {
+.revendedor-banner-img {
   width: 90%;
   max-width: 1100px;
   height: auto;
@@ -48,7 +48,7 @@ header {
 }
 
 /* --- Ícones de Revendedor --- */
-.icones-revendedor {
+.revendedor-icones {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -58,7 +58,7 @@ header {
   z-index: 10;
 }
 
-.icones-wrapper {
+.revendedor-icones-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -73,7 +73,7 @@ header {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.icone-item {
+.revendedor-icone-item {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -88,7 +88,7 @@ header {
   border: 2px solid #000;
 }
 
-.icone-circle {
+.revendedor-icone-circle {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -99,30 +99,29 @@ header {
   margin-bottom: 10px;
 }
 
-.icone-circle img {
+.revendedor-icone-circle img {
   width: 100%;
   height: auto;
 }
 
 /* --- Seção "Como Funciona?" --- */
-
-.como-funciona {
+.revendedor-como-funciona {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
   padding: 60px 20px 60px 20px;
-  margin-bottom: 50px;
+  margin-bottom:200px;
 }
 
-.como-funciona h2 {
+.revendedor-como-funciona h2 {
   color: #f052b6;
   font-size: 2em;
   margin-bottom: 20px;
 }
 
-.como-funciona-conteudo {
+.revendedor-como-funciona-conteudo {
   border: 2px solid black;
   border-radius: 12px;
   padding: 50px 40px;
@@ -138,14 +137,14 @@ header {
   justify-content: center;
 }
 
-.como-funciona-conteudo p {
+.revendedor-como-funciona-conteudo p {
   color: #000;
   font-size: 1.1em;
   text-align: justify;
 }
 
 /* --- Seção "Passo a Passo" e "Benefícios" --- */
-.passo-beneficios-wrapper {
+.revendedor-passo-beneficios-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -158,9 +157,10 @@ header {
   border: 2px solid #000;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 300px;
 }
 
-.passo-beneficios {
+.revendedor-passo-beneficios {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -170,8 +170,8 @@ header {
   width: 100%;
 }
 
-.passo-passo,
-.beneficios {
+.revendedor-passo-passo,
+.revendedor-beneficios {
   border: none;
   border-radius: 0;
   padding: 0;
@@ -185,14 +185,14 @@ header {
   box-shadow: none;
 }
 
-.passo-passo h3,
-.beneficios h3 {
+.revendedor-passo-passo h3,
+.revendedor-beneficios h3 {
   color: #000;
   margin-bottom: 20px;
 }
 
-.passo-passo ul,
-.beneficios ul {
+.revendedor-passo-passo ul,
+.revendedor-beneficios ul {
   list-style: none;
   padding: 0;
   text-align: left;
@@ -202,8 +202,8 @@ header {
   align-items: center;
 }
 
-.passo-passo li,
-.beneficios li {
+.revendedor-passo-passo li,
+.revendedor-beneficios li {
   background-color: var(--roxo-principal);
   color: #fff;
   padding: 10px;
@@ -217,7 +217,7 @@ header {
   text-align: center;
 }
 
-.botao-revendedor {
+.revendedor-botao {
   background-color: var(--roxo-principal);
   color: white;
   padding: 12px 30px;
@@ -234,42 +234,42 @@ header {
 
 /* --- Media Queries para responsividade --- */
 @media (max-width: 768px) {
-  .banner-img {
+  .revendedor-banner-img {
     width: 100%;
     height: auto;
   }
-  .icones-wrapper {
+  .revendedor-icones-wrapper {
     flex-direction: column;
     margin-top: 20px;
     gap: 20px;
   }
-  .icone-item {
+  .revendedor-icone-item {
     width: 150px;
     height: 150px;
     max-width: 250px;
   }
-  .passo-beneficios {
+  .revendedor-passo-beneficios {
     flex-direction: column;
     align-items: center;
     gap: 30px;
   }
-  .passo-passo,
-  .beneficios {
+  .revendedor-passo-passo,
+  .revendedor-beneficios {
     width: 80%;
     max-width: 350px;
   }
-  .botao-revendedor {
+  .revendedor-botao {
     width: 80%;
     max-width: 250px;
   }
 }
 
 @media (max-width: 480px) {
-  .como-funciona-conteudo {
+  .revendedor-como-funciona-conteudo {
     padding: 20px;
   }
-  .passo-passo,
-  .beneficios {
+  .revendedor-passo-passo,
+  .revendedor-beneficios {
     min-width: auto;
   }
 }

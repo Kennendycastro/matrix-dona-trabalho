@@ -28,19 +28,19 @@ const Revendedor = () => {
     
     return (
         <main>
-            <section className="banner-revendedor">
+            <section className="revendedor-banner">
                 <img
                     src={BannerRevendedor}
                     alt="Banner Rápido, fácil e limpo!"
-                    className="banner-img"
+                    className="revendedor-banner-img"
                 />
             </section>
 
-            <section className="icones-revendedor">
-                <div className="icones-wrapper">
+            <section className="revendedor-icones">
+                <div className="revendedor-icones-wrapper">
                     {iconesData.map((icone, index) => (
-                        <div className="icone-item" key={index}>
-                            <div className="icone-circle">
+                        <div className="revendedor-icone-item" key={index}>
+                            <div className="revendedor-icone-circle">
                                 <img src={icone.src} alt={icone.alt} />
                             </div>
                             <p>{icone.texto}</p>
@@ -49,9 +49,9 @@ const Revendedor = () => {
                 </div>
             </section>
 
-            <section className="como-funciona">
+            <section className="revendedor-como-funciona">
                 <h2>Como funciona?</h2>
-                <div className="como-funciona-conteudo">
+                <div className="revendedor-como-funciona-conteudo">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -64,9 +64,9 @@ const Revendedor = () => {
                 </div>
             </section>
 
-            <section className="passo-beneficios-wrapper">
-                <div className="passo-beneficios">
-                    <div className="passo-passo">
+            <section className="revendedor-passo-beneficios-wrapper">
+                <div className="revendedor-passo-beneficios">
+                    <div className="revendedor-passo-passo">
                         <h3>Passo a Passo</h3>
                         <ul>
                             {passosData.map((passo, index) => (
@@ -74,7 +74,7 @@ const Revendedor = () => {
                             ))}
                         </ul>
                     </div>
-                    <div className="beneficios">
+                    <div className="revendedor-beneficios">
                         <h3>Benefícios</h3>
                         <ul>
                             {beneficiosData.map((beneficio, index) => (
@@ -83,7 +83,7 @@ const Revendedor = () => {
                         </ul>
                     </div>
                 </div>
-                <button className="botao-revendedor">Ser Revendedor</button>
+                <button className="revendedor-botao">Ser Revendedor</button>
             </section>
         </main>
     );

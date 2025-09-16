@@ -1,9 +1,10 @@
 // src/components/Footer.jsx
 
 import React from 'react';
+import { Link } from 'react-router-dom'; // Importando o Link
 import './Footer.css'; 
 
-import logo from '../assets/logo/logo-dona-icon.ico';
+import logo from '../assets/Imgs/Footer/logo-dona-icon.ico';
 import whatsapp from '../assets/imgs/Footer/whatsapp-logo.png';
 import instagram from '../assets/imgs/Footer/instagram-logo.png';
 import facebook from '../assets/imgs/Footer/facebook-logo.png';
@@ -18,10 +19,10 @@ const Footer = () => {
           </div>
           <nav>
             <ul>
-              <li><a href="#">home</a></li>
-              <li><a href="#">produtos</a></li>
-              <li><a href="#">Ser revendedor</a></li>
-              <li><a href="#">fale conosco</a></li>
+              <li><Link to="/">home</Link></li>
+              <li><Link to="/produtos">produtos</Link></li>
+              <li><Link to="/revendedor">ser revendedor</Link></li>
+              <li><Link to="/faleconosco">fale conosco</Link></li>
             </ul>
           </nav>
           <div className="social-icons">

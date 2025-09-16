@@ -5,20 +5,21 @@ import Produto from "./pages/Produtos";
 import Revendedor from "./pages/Revendedor";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import ScrollToTop from "./hooks/ScroolToTop";
 
 function App() {
   return (
-    <>
-      <Router>
-        <NavBar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/FaleConosco" element={<FaleConosco />} />
-          <Route path="/Produto" element={<Produto />} />
-          <Route path="/Revendedor" element={<Revendedor />} />
-        </Routes>
-      </Router>
-    </>
+    <Router>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/FaleConosco" element={<FaleConosco />} />
+        <Route path="/Produto" element={<Produto />} />
+        <Route path="/Revendedor" element={<Revendedor />} />
+      </Routes>
+      <Footer /> 
+      <ScrollToTop /> 
+    </Router>
   );
 }
 
