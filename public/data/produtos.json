@@ -1,0 +1,652 @@
+[
+  {
+    "id": "vassoura_dona_lady",
+    "nome": "Vassoura Dona Lady",
+    "tamanho": "",
+    "embalagem": "12 UND / CAIXA",
+    "caracteristicas": [
+      "Monofilamento duplamente estabilizado",
+      "Maior durabilidade",
+      "Mais macio",
+      "62 tufos"
+    ],
+    "categoria": "vassouras",
+    "imagem": "/imgsProdutos/vassoura.png"
+  },
+  {
+    "id": "vassoura_dona_suprema",
+    "nome": "Vassoura Dona Suprema",
+    "tamanho": "",
+    "embalagem": "12 UND / CAIXA",
+    "caracteristicas": [
+      "Monofilamento duplamente estabilizado",
+      "Cerdas alongadas",
+      "Maior durabilidade",
+      "86 tufos"
+    ],
+    "categoria": "vassouras",
+    "imagem": "/imgsProdutos/vassoura.png"
+  },
+  {
+    "id": "vassoura_dona_bella_pelo",
+    "nome": "Vassoura Dona Bella Pelo",
+    "tamanho": "",
+    "embalagem": "12 UND / CAIXA",
+    "caracteristicas": [
+      "Monofilamento estabilizado extra macio",
+      "Maior durabilidade"
+    ],
+    "categoria": "vassouras",
+    "imagem": "/imgsProdutos/vassoura.png"
+  },
+  {
+    "id": "vassoura_dona_varre_canto",
+    "nome": "Vassoura Dona Varre Canto",
+    "tamanho": "",
+    "embalagem": "12 UND / CAIXA",
+    "caracteristicas": [
+      "Monofilamento duplamente estabilizado",
+      "Maior durabilidade",
+      "Mais macio",
+      "Bicolor (azul e preto)",
+      "58 tufos"
+    ],
+    "categoria": "vassouras",
+    "imagem": "/imgsProdutos/vassoura.png"
+  },
+  {
+    "id": "vassoura_dona_gari",
+    "nome": "Vassoura Gari",
+    "tamanho": "",
+    "embalagem": "6 UND / CAIXA",
+    "caracteristicas": [
+      "Cabo de madeira",
+      "Alto padrão de qualidade",
+      "Excelente durabilidade"
+    ],
+    "categoria": "vassouras",
+    "imagem": "/imgsProdutos/vassoura.png"
+  },
+  {
+    "id": "vassoura_dona_brava",
+    "nome": "Vassoura Dona Brava",
+    "tamanho": "",
+    "embalagem": "12 UND / CAIXA",
+    "caracteristicas": [
+      "Cerdas rígidas e bicolor"
+    ],
+    "categoria": "vassouras",
+    "imagem": "/imgsProdutos/vassoura.png"
+  },
+  {
+    "id": "vassoura_dona_classica_premio",
+    "nome": "Vassoura Dona Clássica Prêmio",
+    "tamanho": "",
+    "embalagem": "12 UND / CAIXA",
+    "caracteristicas": [
+      "Monofilamento estabilizado extra macio",
+      "Capa com cores fluorescentes em resina virgem"
+    ],
+    "categoria": "vassouras",
+    "imagem": "/imgsProdutos/vassoura.png"
+  },
+  {
+    "id": "vassoura_dona_porcelanato",
+    "nome": "Vassoura Dona Porcelanato",
+    "tamanho": "",
+    "embalagem": "",
+    "caracteristicas": [
+      "Mais cerdas",
+      "Mais macia",
+      "Cabo alongado"
+    ],
+    "categoria": "vassouras",
+    "imagem": "/imgsProdutos/vassoura.png"
+  },
+  {
+    "id": "rodo_dona_twist_fluor",
+    "nome": "Rodo Dona Twist Flúor",
+    "tamanho": "30 CM/40 CM",
+    "embalagem": "12 UND / CAIXA",
+    "caracteristicas": [
+      "Formato diferenciado",
+      "Presilha prende pano",
+      "Material fluorescentes",
+      "EVA duplo"
+    ],
+    "categoria": "rodos",
+    "imagem": "/imgsProdutos/rodo.png"
+  },
+  {
+    "id": "rodo_dona",
+    "nome": "Rodo Dona",
+    "tamanho": "60 CM",
+    "embalagem": "12 UND / CAIXA",
+    "caracteristicas": [
+      "Garras fixa pano",
+      "EVA duplo"
+    ],
+    "categoria": "rodos",
+    "imagem": "/imgsProdutos/rodo.png"
+  },
+  {
+    "id": "rodo_bom_master",
+    "nome": "Rodo Bom Master",
+    "tamanho": "40 CM/60 CM",
+    "embalagem": "12 UND / CAIXA",
+    "caracteristicas": [
+      "Formato diferenciado",
+      "Cabo de alumínio 1.4m"
+    ],
+    "categoria": "rodos",
+    "imagem": "/imgsProdutos/rodo.png"
+  },
+  {
+    "id": "rodo_limpmax_master",
+    "nome": "Rodo Limpmax Master",
+    "tamanho": "30/40/50/60 CM",
+    "embalagem": "12 UND / CAIXA",
+    "caracteristicas": [
+      "Sem cabo"
+    ],
+    "categoria": "rodos",
+    "imagem": "/imgsProdutos/rodo.png"
+  },
+  {
+    "id": "rodo_star",
+    "nome": "Rodo Star",
+    "tamanho": "40 CM/60 CM",
+    "embalagem": "12 UND / CAIXA",
+    "caracteristicas": [
+      "Com cabo de alumínio",
+      "EVA duplo"
+    ],
+    "categoria": "rodos",
+    "imagem": "/imgsProdutos/rodo.png"
+  },
+  {
+    "id": "rodo_esponja_abrasiva_master_limpa_vidro",
+    "nome": "Rodo Esponja Abrasiva Master Limpa Vidro",
+    "tamanho": "",
+    "embalagem": "12 UND / CAIXA",
+    "caracteristicas": [
+      "Com cabo de madeira"
+    ],
+    "categoria": "rodos",
+    "imagem": "/imgsProdutos/rodo.png"
+  },
+  {
+    "id": "rodo_esponja_abrasiva_master_limpa_azulejo",
+    "nome": "Rodo Esponja Abrasiva Master Limpa Azulejo",
+    "tamanho": "",
+    "embalagem": "12 UND / CAIXA",
+    "caracteristicas": [
+      "Com cabo de madeira"
+    ],
+    "categoria": "rodos",
+    "imagem": "/imgsProdutos/rodo.png"
+  },
+  {
+    "id": "passa_cera_master",
+    "nome": "Passa Cera Master",
+    "tamanho": "",
+    "embalagem": "12 UND / CAIXA",
+    "caracteristicas": [
+      "Com cabo de madeira"
+    ],
+    "categoria": "rodos",
+    "imagem": "/imgsProdutos/rodo.png"
+  },
+  {
+    "id": "rodo_de_aluminio",
+    "nome": "Rodo de Alumínio",
+    "tamanho": "15 CM",
+    "embalagem": "12 UND / CAIXA",
+    "caracteristicas": [],
+    "categoria": "rodos",
+    "imagem": "/imgsProdutos/rodo.png"
+  },
+  {
+    "id": "rodo_dona_pia",
+    "nome": "Rodo Dona Pia",
+    "tamanho": "15 CM",
+    "embalagem": "60 UND/ CAIXA",
+    "caracteristicas": [
+      "Borracha TPV resistente ao calor e agentes químicos"
+    ],
+    "categoria": "rodos",
+    "imagem": "/imgsProdutos/rodo.png"
+  },
+  {
+    "id": "suporte_lt_velcro_master_rosca_23cm",
+    "nome": "Suporte LT Velcro Master Rosca 23CM",
+    "tamanho": "",
+    "embalagem": "12 UND / CAIXA",
+    "caracteristicas": [
+      "Com cabo de madeira"
+    ],
+    "categoria": "suportes",
+    "imagem": "/imgsProdutos/suporte.png"
+  },
+  {
+    "id": "escova_dona_sanitario",
+    "nome": "Escova Dona Sanitário",
+    "tamanho": "",
+    "embalagem": "12 UND / CAIXA",
+    "caracteristicas": [
+      "Escova com cabo longo",
+      "Pote que cobre toda a escova",
+      "67 tufos"
+    ],
+    "categoria": "escovas",
+    "imagem": "/imgsProdutos/escova.png"
+  },
+  {
+    "id": "escova_dona_leve",
+    "nome": "Escova Dona Leve",
+    "tamanho": "",
+    "embalagem": "36 UND / CAIXA",
+    "caracteristicas": [
+      "Escova leve em formato oval",
+      "Com monofilamento bicolor em cores diversas",
+      "63 tufos"
+    ],
+    "categoria": "escovas",
+    "imagem": "/imgsProdutos/escova.png"
+  },
+  {
+    "id": "escova_dona_ferro",
+    "nome": "Escova Dona Ferro",
+    "tamanho": "",
+    "embalagem": "36 UND / CAIXA",
+    "caracteristicas": [
+      "Raspador na ponta",
+      "93 tufos"
+    ],
+    "categoria": "escovas",
+    "imagem": "/imgsProdutos/escova.png"
+  },
+  {
+    "id": "escova_dona_oval_base_madeira",
+    "nome": "Escova Oval Base Madeira",
+    "tamanho": "",
+    "embalagem": "36 UND / CAIXA",
+    "caracteristicas": [
+      "Escova leve em formato oval",
+      "Com monofilamento",
+      "Base de madeira"
+    ],
+    "categoria": "escovas",
+    "imagem": "/imgsProdutos/escova.png"
+  },
+  {
+    "id": "escova_dona_limpa_tudo_pesada",
+    "nome": "Escova Dona Limpa Tudo Pesada",
+    "tamanho": "",
+    "embalagem": "24 UND / CAIXA",
+    "caracteristicas": [
+      "Fibra abrasiva para limpeza de grelhas e chapas",
+      "Alça anatômica"
+    ],
+    "categoria": "escovas",
+    "imagem": "/imgsProdutos/escova.png"
+  },
+  {
+    "id": "pa_de_aluminio_master_media",
+    "nome": "Pá de Alumínio Master - Média",
+    "tamanho": "",
+    "embalagem": "12 UND / CAIXA",
+    "caracteristicas": [
+      "Cabo longo",
+      "Com cabo de alumínio",
+      "Material da pá: zinco",
+      "Alto padrão de qualidade",
+      "Excelente durabilidade"
+    ],
+    "categoria": "pas",
+    "imagem": "/imgsProdutos/pas.png"
+  },
+  {
+    "id": "pa_de_aluminio_pequena",
+    "nome": "Pá de Alumínio Pequena",
+    "tamanho": "",
+    "embalagem": "12 UND / CAIXA",
+    "caracteristicas": [
+      "Cabo de alumínio",
+      "Alto padrão de qualidade",
+      "Excelente durabilidade"
+    ],
+    "categoria": "pas",
+    "imagem": "/imgsProdutos/pas.png"
+  },
+  {
+    "id": "pa_de_lixo",
+    "nome": "Pá de Lixo",
+    "tamanho": "",
+    "embalagem": "12 UND / CAIXA",
+    "caracteristicas": [
+      "Cabo longo",
+      "Material do cabo: madeira",
+      "Material da pá: plástico"
+    ],
+    "categoria": "pas",
+    "imagem": "/imgsProdutos/pas.png"
+  },
+  {
+    "id": "dona_pa_click_azul",
+    "nome": "Dona Pá Click Azul",
+    "tamanho": "",
+    "embalagem": "36 UND / CAIXA",
+    "caracteristicas": [
+      "Material da pá: plástico",
+      "Alto padrão de qualidade"
+    ],
+    "categoria": "pas",
+    "imagem": "/imgsProdutos/pas.png"
+  },
+  {
+    "id": "dona_pa_de_zinco_cabo_artemanha",
+    "nome": "Dona Pá de Zinco c/ Cabo Artemanha",
+    "tamanho": "",
+    "embalagem": "12 UND / CAIXA",
+    "caracteristicas": [
+      "Cabo longo",
+      "Com cabo de madeira",
+      "Material da pá: zinco",
+      "Alto padrão de qualidade",
+      "Excelente durabilidade"
+    ],
+    "categoria": "pas",
+    "imagem": "/imgsProdutos/pas.png"
+  },
+  {
+    "id": "cabo_de_extensor_aluminio_master",
+    "nome": "Cabo de Extensor Alumínio Master",
+    "tamanho": "3M/4.5M/6M",
+    "embalagem": "UNIDADE",
+    "caracteristicas": [
+      "Estriado",
+      "Cabo de alumínio"
+    ],
+    "categoria": "cabos",
+    "imagem": "/imgsProdutos/cabo.png"
+  },
+  {
+    "id": "cabo_extensor_telesc",
+    "nome": "Cabo Extensor Telesc",
+    "tamanho": "6 Metros",
+    "embalagem": "UNIDADE",
+    "caracteristicas": [
+      "Estriado",
+      "Cabo de alumínio"
+    ],
+    "categoria": "cabos",
+    "imagem": "/imgsProdutos/cabo.png"
+  },
+  {
+    "id": "protetor_de_porta",
+    "nome": "Protetor de Porta",
+    "tamanho": "80 CM/90 CM",
+    "embalagem": "UNIDADE",
+    "caracteristicas": [],
+    "categoria": "acessorios_limpeza",
+    "imagem": "/imgsProdutos/protetor.png"
+  },
+  {
+    "id": "veda_po_master",
+    "nome": "Veda Pó Master",
+    "tamanho": "70/80/90/100 CM",
+    "embalagem": "UNIDADE",
+    "caracteristicas": [],
+    "categoria": "acessorios_limpeza",
+    "imagem": "/imgsProdutos/veda.png"
+  },
+  {
+    "id": "balde_8_litros",
+    "nome": "Balde 8 Litros",
+    "tamanho": "8 Litros",
+    "embalagem": "UNIDADE",
+    "caracteristicas": [
+      "Alça plástica",
+      "Pegada confortável",
+      "Borda reforçada"
+    ],
+    "categoria": "baldes_e_bacias",
+    "imagem": "/imgsProdutos/balde.png"
+  },
+  {
+    "id": "balde_10_litros",
+    "nome": "Balde 10 Litros",
+    "tamanho": "10 Litros",
+    "embalagem": "UNIDADE",
+    "caracteristicas": [
+      "Alça plástica",
+      "Pegada confortável",
+      "Borda reforçada"
+    ],
+    "categoria": "baldes_e_bacias",
+    "imagem": "/imgsProdutos/balde.png"
+  },
+  {
+    "id": "balde_12_litros",
+    "nome": "Balde 12 Litros",
+    "tamanho": "12 Litros",
+    "embalagem": "UNIDADE",
+    "caracteristicas": [
+      "Alça plástica",
+      "Pegada confortável",
+      "Borda reforçada"
+    ],
+    "categoria": "baldes_e_bacias",
+    "imagem": "/imgsProdutos/balde.png"
+  },
+  {
+    "id": "balde_de_construcao",
+    "nome": "Balde de Construção",
+    "tamanho": "12 Litros",
+    "embalagem": "UNIDADE",
+    "caracteristicas": [
+      "Alça de metal",
+      "Material resistente"
+    ],
+    "categoria": "baldes_e_bacias",
+    "imagem": "/imgsProdutos/balde.png"
+  },
+  {
+    "id": "cesto_telado",
+    "nome": "Cesto Telado",
+    "tamanho": "10 Litros",
+    "embalagem": "UNIDADE",
+    "caracteristicas": [
+      "Plástico reciclado"
+    ],
+    "categoria": "baldes_e_bacias",
+    "imagem": "/imgsProdutos/balde.png"
+  },
+  {
+    "id": "lixeiro_de_plastico_com_tampa",
+    "nome": "Lixeiro de Plástico com Tampa - 05",
+    "tamanho": "",
+    "embalagem": "UNIDADE",
+    "caracteristicas": [
+      "Plástico reciclado"
+    ],
+    "categoria": "lixeiras",
+    "imagem": "/imgsProdutos/lixeira.png"
+  },
+  {
+    "id": "bacia_2.6",
+    "nome": "Bacia 2.6",
+    "tamanho": "",
+    "embalagem": "UNIDADE",
+    "caracteristicas": [
+      "Reciclável",
+      "Resistente",
+      "Segurança alimentar"
+    ],
+    "categoria": "baldes_e_bacias",
+    "imagem": "/imgsProdutos/balde.png"
+  },
+  {
+    "id": "bacia_05",
+    "nome": "Bacia 05",
+    "tamanho": "",
+    "embalagem": "UNIDADE",
+    "caracteristicas": [
+      "Reciclável",
+      "Resistente",
+      "Segurança alimentar"
+    ],
+    "categoria": "baldes_e_bacias",
+    "imagem": "/imgsProdutos/balde.png"
+  },
+  {
+    "id": "bacia_07",
+    "nome": "Bacia 07",
+    "tamanho": "",
+    "embalagem": "UNIDADE",
+    "caracteristicas": [
+      "Reciclável",
+      "Resistente",
+      "Segurança alimentar"
+    ],
+    "categoria": "baldes_e_bacias",
+    "imagem": "/imgsProdutos/balde.png"
+  },
+  {
+    "id": "bacia_09",
+    "nome": "Bacia 09",
+    "tamanho": "",
+    "embalagem": "UNIDADE",
+    "caracteristicas": [
+      "Reciclável",
+      "Resistente",
+      "Segurança alimentar"
+    ],
+    "categoria": "baldes_e_bacias",
+    "imagem": "/imgsProdutos/balde.png"
+  },
+  {
+    "id": "bacia_11",
+    "nome": "Bacia 11",
+    "tamanho": "",
+    "embalagem": "UNIDADE",
+    "caracteristicas": [
+      "Reciclável",
+      "Resistente",
+      "Segurança alimentar"
+    ],
+    "categoria": "baldes_e_bacias",
+    "imagem": "/imgsProdutos/balde.png"
+  },
+  {
+    "id": "bacia_3.3",
+    "nome": "Bacia 3.3",
+    "tamanho": "",
+    "embalagem": "UNIDADE",
+    "caracteristicas": [
+      "Reciclável",
+      "Resistente",
+      "Segurança alimentar"
+    ],
+    "categoria": "baldes_e_bacias",
+    "imagem": "/imgsProdutos/balde.png"
+  },
+  {
+    "id": "super_panao",
+    "nome": "Super Panão",
+    "tamanho": "60x90 CM",
+    "embalagem": "24 PACOTE/FARDO",
+    "caracteristicas": [
+      "Limpa",
+      "Seca",
+      "Dá brilho"
+    ],
+    "categoria": "panos",
+    "imagem": "/imgsProdutos/pano.png"
+  },
+  {
+    "id": "capa_para_rodo",
+    "nome": "Capa para Rodo",
+    "tamanho": "50x40 CM",
+    "embalagem": "24 PACOTE/FARDO",
+    "caracteristicas": [
+      "Limpa",
+      "Seca",
+      "Dá brilho"
+    ],
+    "categoria": "panos",
+    "imagem": "/imgsProdutos/pano.png"
+  },
+  {
+    "id": "dona_pano_bom_l3p2",
+    "nome": "Dona Pano Bom - L3P2",
+    "tamanho": "40x60 CM",
+    "embalagem": "16 PACOTE/FARDO",
+    "caracteristicas": [
+      "Limpa",
+      "Seca",
+      "Dá brilho",
+      "Super resistente"
+    ],
+    "categoria": "panos",
+    "imagem": "/imgsProdutos/pano.png"
+  },
+  {
+    "id": "dona_conjunto_3_panos_microfibra",
+    "nome": "Dona Conjunto com 3 Panos Microfibra",
+    "tamanho": "45x65 CM",
+    "embalagem": "UNIDADE",
+    "caracteristicas": [],
+    "categoria": "panos_microfibra",
+    "imagem": "/imgsProdutos/pano.png"
+  },
+  {
+    "id": "pano_microfibra_39x39",
+    "nome": "Pano Microfibra",
+    "tamanho": "39x39 CM",
+    "embalagem": "12 UND / PACOTE",
+    "caracteristicas": [],
+    "categoria": "panos_microfibra",
+    "imagem": "/imgsProdutos/pano.png"
+  },
+  {
+    "id": "pano_microfibra_50x70",
+    "nome": "Pano Microfibra",
+    "tamanho": "50x70 CM",
+    "embalagem": "12 UND / PACOTE",
+    "caracteristicas": [],
+    "categoria": "panos_microfibra",
+    "imagem": "/imgsProdutos/pano.png"
+  },
+  {
+    "id": "pano_de_prato_microfibra_estampado",
+    "nome": "Pano de Prato Microfibra Estampado",
+    "tamanho": "45x65 CM",
+    "embalagem": "06 UND / PACOTE",
+    "caracteristicas": [],
+    "categoria": "panos_microfibra",
+    "imagem": "/imgsProdutos/pano.png"
+  },
+  {
+    "id": "lixeira_p_copo_descartavel_cafe",
+    "nome": "Lixeira p/Copo Descartável Café",
+    "tamanho": "",
+    "embalagem": "UNIDADE",
+    "caracteristicas": [
+      "Plástico PVC",
+      "Fixado em base plástica"
+    ],
+    "categoria": "lixeiras",
+    "imagem": "/imgsProdutos/lixeira.png"
+  },
+  {
+    "id": "refil_de_rodo",
+    "nome": "Refil de Rodo",
+    "tamanho": "",
+    "embalagem": "12 UND / CAIXA",
+    "caracteristicas": [],
+    "categoria": "refis",
+    "imagem": "/imgsProdutos/refil.png"
+  }
+]
