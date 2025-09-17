@@ -120,3 +120,22 @@ hr {
     align-items: center;
     justify-content: center;
 }
+
+.btn-revendedor {
+    margin: 40px auto 0 auto;
+    display: block;
+    padding: 14px 38px;
+    background: #4A218D;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-revendedor:hover {
+    background: #D9D9D9;
+    color: #4A218D;
+}

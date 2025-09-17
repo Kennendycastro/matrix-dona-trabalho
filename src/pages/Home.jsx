@@ -4,8 +4,11 @@ import Passo1 from "../assets/telefone.png"
 import Passo2 from "../assets/usuarios.png"
 import Passo3 from "../assets/cesta.png"
 import "../assets/styles/Home.css"
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+    const navigate = useNavigate();
+
     return (
         <>
 
@@ -69,7 +72,15 @@ function Home() {
                             </div>
 
                         </div>
+                        {/* Botão abaixo dos itens */}
+                        <button
+                            className="btn-revendedor"
+                            onClick={() => navigate("/Revendedor")}
+                        >
+                            Quero ser revendedor
+                        </button>
                     </div>
+
                 </section>
             </main>
         </>
