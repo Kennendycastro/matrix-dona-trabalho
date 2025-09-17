@@ -83,7 +83,14 @@ const Revendedor = () => {
                         </ul>
                     </div>
                 </div>
-                <button className="revendedor-botao">Ser Revendedor</button>
+                <a 
+                  href="https://wa.me/558892370485"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="revendedor-botao"
+                >
+                  Ser Revendedor
+                </a>
             </section>
         </main>
     );
