@@ -25,7 +25,7 @@ const Revendedor = () => {
         'Confiabilidade',
         'Alta lucratividade'
     ];
-    
+
     return (
         <main>
             <section className="revendedor-banner">
@@ -53,13 +53,7 @@ const Revendedor = () => {
                 <h2>Como funciona?</h2>
                 <div className="revendedor-como-funciona-conteudo">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
+                        O Programa de Revenda da Produtos Dona foi criado para transformar oportunidades em resultados. Qualquer pessoa pode se tornar revendedora e lucrar com produtos de limpeza de alta qualidade, inovadores e sustentáveis, adquirindo-os a preços acessíveis e com grande margem de lucro. Com flexibilidade total, o revendedor pode escolher trabalhar com ou sem estoque, adaptando o negócio à sua realidade e potencial de vendas. A proposta é simples: você revende os produtos em sua cidade, conquista clientes fiéis e cresce junto com a marca.
                     </p>
                 </div>
             </section>
