@@ -18,7 +18,7 @@ function App() {
         <Route path="/Produtos" element={<Produtos />} />
         <Route path="/Revendedor" element={<Revendedor />} />
       </Routes>
-      <Footer /> 
+
       <ScrollToTop /> 
     </Router>
   );
