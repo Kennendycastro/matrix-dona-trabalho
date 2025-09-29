@@ -1,7 +1,7 @@
 // src/components/Footer.jsx
 
 import React from 'react';
-import { Link } from 'react-router-dom'; // Importando o Link
+import { Link } from 'react-router-dom'; 
 import './Footer.css'; 
 
 import logo from '../assets/Imgs/Footer/logo-dona-icon.ico';

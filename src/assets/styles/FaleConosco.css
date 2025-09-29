@@ -1,173 +1,208 @@
-/* --- Variáveis de cor e fontes --- */
+/* Variáveis de cor e fontes */
 :root {
-    --roxo-principal: #4a148c;
-    --roxo-claro: #e1d4f4;
-    --roxo-hover: hsl(277, 70%, 35%);
-    --fundo-pagina: white;
-    --borda-input: #333;
-    --vermelho-erro: #b71c1c;
-    --fundo-erro: #ffcdd2;
+  --roxo-principal: #4a148c;
+  --roxo-claro: #e1d4f4;
+  --roxo-hover: hsl(277, 70%, 35%);
+  --fundo-pagina: white;
+  --borda-input: #333;
+  --vermelho-erro: #b71c1c;
+  --fundo-erro: #ffcdd2;
 }
 
-/* --- Estilos globais para a página --- */
+/* Estilos globais para a página */
 body {
-    font-family: 'Varela Round', sans-serif;
-    background: var(--fundo-pagina);
-    margin: 0;
-    padding: 0;
+  font-family: 'Varela Round', sans-serif;
+  background: var(--fundo-pagina);
+  margin: 0;
+  padding: 0;
 }
 
 main {
-    margin-top: 0;
+  margin-top: 0;
 }
 
-/* --- Cabeçalho --- */
+/*  Cabeçalho  */
 header {
-    background: var(--fundo-pagina);
-    padding: 15px 50px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+  background: var(--fundo-pagina);
+  padding: 15px 50px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-/* --- Seção de Contato --- */
+/* Seção de Contato */
 .contato {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 80vh; 
-    padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  padding: 20px;
 }
 
 .contato-container {
-    display: flex;
-    background-color: #fff;
-    border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    width: 90%;
-    max-width: 1000px;
-    overflow: hidden;
-    margin-bottom: 300px;
+  display: flex;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 1000px;
+  overflow: hidden;
+  margin-bottom: 300px;
 }
 
-/* --- Lado da Imagem --- */
+/* Lado da Imagem */
 .imagem-lado {
-    background-image: url('../Imgs/FaleConosco/homem-notebook.jpg');
-    background-size: cover;
-    background-position: center;
-    width: 50%;
-    min-height: 500px;
-    display: none; 
+  background-image: url('../Imgs/FaleConosco/homem-notebook.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  min-height: 500px;
+  display: block; 
 }
 
+/*  Lado do Formulário */
 .form-lado {
-    padding: 40px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 700px; 
+  padding: 40px;
+  width: 50%; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 700px;
 }
 
 .form-lado h2 {
-    text-align: center;
-    color: var(--roxo-principal);
-    font-size: 2.5em;
-    margin-bottom: 30px;
+  text-align: center;
+  color: var(--roxo-principal);
+  font-size: 2.5em;
+  margin-bottom: 30px;
 }
 
-/* --- Estilos do Formulário --- */
+/* Estilos do Formulário */
 #form-contato {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #form-contato label {
-    font-weight: bold;
-    color: var(--borda-input);
-    margin-bottom: 5px;
+  font-weight: bold;
+  color: var(--borda-input);
+  margin-bottom: 5px;
 }
 
 #form-contato input,
 #form-contato textarea {
-    padding: 12px;
-    border: 1px solid var(--borda-input);
-    border-radius: 8px;
-    margin-bottom: 20px;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 1em;
+  padding: 12px;
+  border: 1px solid var(--borda-input);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1em;
 }
 
 #form-contato textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 #contador {
-    text-align: right;
-    font-size: 0.9em;
-    color: #555;
-    margin-top: -10px;
-    margin-bottom: 20px;
+  text-align: right;
+  font-size: 0.9em;
+  color: #555;
+  margin-top: -10px;
+  margin-bottom: 20px;
 }
 
 #form-contato button {
-    background-color: var(--roxo-principal);
-    color: white;
-    padding: 15px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 1.1em;
-    transition: background-color 0.3s ease;
+  background-color: var(--roxo-principal);
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease;
 }
 
 #form-contato button:hover {
-    background-color: var(--roxo-hover);
+  background-color: var(--roxo-hover);
 }
 
-/* --- Mensagens de Status --- */
+/*  Mensagens de Status  */
 .mensagem-status {
-    padding: 15px;
-    border-radius: 8px;
-    text-align: center;
-    font-weight: bold;
-    min-height: auto; 
-    opacity: 0;
-    transition: opacity 0.5s ease;
-    margin-top: 20px;
-    min-height: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  min-height: auto;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  margin-top: 20px;
+  min-height: 20px;
 }
 
 .mensagem-status.visivel {
-    opacity: 1;
+  opacity: 1;
 }
 
 .mensagem-status.mensagem-sucesso {
-    background-color:var(--roxo-claro);
-    color: var(--roxo-principal);
+  background-color: var(--roxo-claro);
+  color: var(--roxo-principal);
 }
 
 .mensagem-status.mensagem-erro {
-    background-color: var(--fundo-erro);
-    color: var(--vermelho-erro);
+  background-color: var(--fundo-erro);
+  color: var(--vermelho-erro);
 }
 
-/* --- Media Queries --- */
-@media (min-width: 768px) {
-    .imagem-lado {
-        display: block; /* Mostra a imagem em telas maiores */
-    }
-    .form-lado {
-        width: 50%;
-    }
+/* Media Queries */
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden; 
+  }
+
+  .contato {
+    padding: 10px; 
+  }
+
+  .contato-container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;       
+    max-width: 100%;   
+    margin: 0;         
+    border-radius: 0;   
+  }
+
+  .imagem-lado {
+    display: none;
+  }
+
+  .form-lado {
+    width: 100%;
+    min-height: auto;
+    padding: 20px;
+  }
+
+  .form-lado h2 {
+    font-size: 1.8em;
+  }
 }
 
 @media (max-width: 480px) {
-    .form-lado {
-        padding: 20px;
-    }
-    .form-lado h2 {
-        font-size: 2em;
-    }
+  .contato-container {
+    padding: 10px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  #form-contato input,
+  #form-contato textarea {
+    font-size: 0.95em; 
+  }
+
+  #form-contato button {
+    font-size: 1em;
+    padding: 12px;
+  }
 }
+

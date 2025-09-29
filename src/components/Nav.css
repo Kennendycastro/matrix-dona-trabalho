@@ -1,34 +1,119 @@
-.nav-bar ul  {
-    padding: 40px;
-    display: grid;
-    align-items: center;
-    grid-auto-flow: column;
-    gap: 20px;
-    font-size: 16px;
-    margin-left: 152px;
 
 
+/* Estilos padrão para desktop */
+.nav-bar {  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
 }
 
-
-
-.revendedor{
-    background-color: #4A218D;
-    box-sizing: border-box;
-    color: #D9D9D9;
-    padding: 10px;
-    
+.nav-bar ul {
+  list-style: none;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  font-size: 16px;
+  margin-left: 152px;
 }
+
+/* Estilos para o menu hambúrguer */
+.menu-hamburguer {
+  display: none;
+  cursor: pointer;
+  order: 2;
+}
+.barra {
+  width: 25px;
+  height: 3px;
+  background-color: #4a148c;
+  margin: 5px 0;
+  transition: 0.4s;
+}
+
+/* Estilos do botão Revendedor */
+.revendedor {
+  background-color: #4a218d;
+  box-sizing: border-box;
+  color: #d9d9d9;
+  padding: 10px;
+}
+
 .revendedor:hover {
-  background: #D9D9D9;
-  color: #4A218D;
+  background: #d9d9d9;
+  color: #4a218d;
 }
 
-
-.logo{
-    width: 46px;
-    height: auto;
+.logo {
+  width: 46px;
+  height: auto;
 }
-a{
-    text-decoration: none;
+
+a {
+  text-decoration: none;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  
+  
+  .menu-hamburguer {
+    display: block; 
+    order: 1; 
+  }
+
+
+  .logo {
+    order: 1; 
+    width: 35px;
+  }
+
+   .nav-bar {
+        justify-content: flex-end; 
+        padding: 0 20px;
+        position: relative; 
+    }
+
+  .nav-bar ul {
+    display: none;
+    flex-direction: column; 
+    background-color: #fff;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding: 20px 0;
+    text-align: center;
+    z-index: 1000;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  .menu-hamburguer {
+        display: block; 
+       position: fixed; 
+        top: 5px; 
+        right: 40px; 
+        z-index: 1001; 
+    }
+
+
+  .nav-bar li {
+    margin: 10px 0;
+  }
+
+  .nav-bar .menu-aberto {
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 5%; 
+  }
+
+  body.menu-ativo main,
+  body.menu-ativo footer {
+    display: none;
+  }
+
+  body.menu-ativo {
+    overflow: hidden; 
+  }
 }

@@ -1,28 +1,44 @@
-
-import {Link} from 'react-router-dom';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Nav.css';
-import  logo from '/logo-dona.png'
-
 
 function NavBar() {
-    return (
-        <>
-            <header>
-                <div className="nav-bar">
-                    <nav>
-                        <ul className="itens-c">
-                            <img  className= "logo" src= {logo} alt="logo" />
-                            <li><Link to="/">Pagina Inicial</Link> </li>
-                            <li><Link to= "/FaleConosco"> Fale conosco</Link> </li>
-                            <li><Link to= "/Produtos">Produtos</Link> </li>
-                            <li><Link to= "/Revendedor" className="revendedor"> Ser Revendedor</Link> </li>
-                        </ul>
-                    </nav>
-                </div>
-            </header>
-        </>
-    )
-}
+    const [menuOpen, setMenuOpen] = useState(false);
 
+    const toggleMenu = () => {
+        setMenuOpen(!menuOpen);
+        if (!menuOpen) {
+            document.body.classList.add('menu-ativo');
+        } else {
+            document.body.classList.remove('menu-ativo');
+        }
+    };
+
+   
+    const closeMenu = () => {
+        setMenuOpen(false);
+        document.body.classList.remove('menu-ativo');
+    };
+
+    return (
+        <header>
+            <div className="nav-bar">
+                <nav>
+                    <div className="menu-hamburguer" onClick={toggleMenu}>
+                        <div className="barra"></div>
+                        <div className="barra"></div>
+                        <div className="barra"></div>
+                    </div>
+                    <ul className={`itens-c ${menuOpen ? 'menu-aberto' : ''}`}>
+                        <li><Link to="/" onClick={closeMenu}>Pagina Inicial</Link></li>
+                        <li><Link to="/FaleConosco" onClick={closeMenu}> Fale conosco</Link></li>
+                        <li><Link to="/Produtos" onClick={closeMenu}>Produtos</Link></li>
+                        <li><Link to="/Revendedor" className="revendedor" onClick={closeMenu}> Ser Revendedor</Link></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    );
+}
 
 export default NavBar;

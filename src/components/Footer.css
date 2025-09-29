@@ -1,28 +1,64 @@
-/* src/components/Footer.css */
 
-footer {
+
+/* Variáveis de cor e fontes */
+:root {
+  --roxo-principal: #4a148c;
+  --roxo-claro: #e1d4f4;
+  --roxo-hover: #6a1b9a;
+  --fundo-pagina: white;
+  --borda-input: #333;
+  --vermelho-erro: #b71c1c;
+  --fundo-erro: #ffcdd2;
+}
+
+
+
+/* Estilos gerais do corpo da página */
+body {
+  font-family: "Varela Round", sans-serif;
   background: var(--fundo-pagina);
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos da Seção do Rodapé */
+footer {
+    background: var(--fundo-pagina);
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
 }
 
 .footer-top {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 50px;
-  padding: 40px 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 40px 20px;
+    width: 100%; 
+    max-width: 1200px; 
+}
+
+/* Estilos para telas médias e menores */
+@media (max-width: 768px) {
+    .footer-top {
+        flex-direction: column; 
+        gap: 30px; 
+        text-align: center;
+    }
+
+    .footer-mid nav ul {
+      flex-direction: column; 
+      gap: 15px; 
+    }
 }
 
 .footer-mid {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-}
-
-.footer-mid nav a {
-  text-decoration: none;
-  color: var(--roxo-principal);
-  font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%; 
 }
 
 .logo-footer {
@@ -30,30 +66,39 @@ footer {
     height: auto;
 }
 
+/* Estilos da navegação */
 .footer-mid nav {
-    margin-bottom: 40px;
-}
-
-.social-icons {
-    margin-top: 40px;
+    margin-bottom: 20px; 
 }
 
 .footer-mid nav ul {
     list-style: none;
     display: flex;
-    gap: 64px;
+    gap: 30px; 
     padding: 0;
+    flex-wrap: wrap; 
+    justify-content: center;
 }
 
 .footer-mid nav a {
     text-decoration: none;
     color: var(--roxo-principal);
+    font-size: 18px; 
+}
+
+/* Estilos dos ícones de redes sociais */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
 }
 
 .social-icons img {
-    width: 65px;
+    width: 40px; 
     height: auto;
-    margin: 0 56px;
+    margin: 0;
 }
 
 .footer-bottom {
@@ -61,6 +106,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+    width: 95%; 
 }
 
 .footer-bottom p {

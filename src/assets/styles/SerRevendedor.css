@@ -14,7 +14,8 @@ body {
   font-family: "Varela Round", sans-serif;
   background: var(--fundo-pagina);
   margin: 0;
-  padding: 0;
+  padding: 60px 20px 60px 0%;
+  overflow-x: hidden; 
 }
 
 main {
@@ -37,7 +38,9 @@ header {
   align-items: center;
   width: 100%;
   margin-top: 30px;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
+  padding: 60px 20px 120px 0px;
+  margin : 0;
 }
 
 .revendedor-banner-img {
@@ -51,6 +54,7 @@ header {
 .revendedor-icones {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -111,13 +115,13 @@ header {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 60px 20px 60px 20px;
-  margin-bottom:200px;
+  padding: 60px 20px 80px 57px;
+  margin-bottom: 100px;
 }
 
 .revendedor-como-funciona h2 {
-  color: #f052b6;
-  font-size: 2em;
+  color: var(--roxo-principal);
+  font-size: 2.5em;
   margin-bottom: 20px;
 }
 
@@ -135,12 +139,13 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .revendedor-como-funciona-conteudo p {
   color: #000;
   font-size: 1.1em;
-  text-align: justify;
+  text-align: center;
 }
 
 /* --- Seção "Passo a Passo" e "Benefícios" --- */
@@ -149,7 +154,7 @@ header {
   flex-direction: column;
   align-items: center;
   padding: 40px;
-  width: 70%;
+  width: 90%;
   max-width: 700px;
   margin: 0 auto;
   margin-top: 80px;
@@ -157,16 +162,16 @@ header {
   border: 2px solid #000;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
-  margin-bottom: 300px;
+  margin-bottom: 100px;
 }
 
 .revendedor-passo-beneficios {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: flex-start;
-  gap: 132px;
+  gap: 30px;
   flex-wrap: wrap;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   width: 100%;
 }
 
@@ -175,7 +180,7 @@ header {
   border: none;
   border-radius: 0;
   padding: 0;
-  min-width: 280px;
+  min-width: 250px;
   flex: 1;
   text-align: center;
   height: auto;
@@ -187,8 +192,9 @@ header {
 
 .revendedor-passo-passo h3,
 .revendedor-beneficios h3 {
-  color: #000;
+  color: var(--roxo-principal);
   margin-bottom: 20px;
+  font-size: 1.5em;
 }
 
 .revendedor-passo-passo ul,
@@ -210,7 +216,8 @@ header {
   border-radius: 32px;
   margin-bottom: 20px;
   font-weight: bold;
-  width: 200px;
+  width: 90%;
+  max-width: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -226,50 +233,64 @@ header {
   cursor: pointer;
   font-weight: bold;
   font-size: 1.1em;
-  width: auto;
-  min-width: 200px;
+  width: 80%;
+  max-width: 250px;
   text-align: center;
   margin-top: 48px;
+  text-decoration: none;
+  display: block;
+  margin: 48px auto 0;
 }
 
-/* --- Media Queries para responsividade --- */
+/* --- Media Queries --- */
 @media (max-width: 768px) {
-  .revendedor-banner-img {
-    width: 100%;
-    height: auto;
+  
+  
+  .revendedor-icones-wrapper,
+  .revendedor-como-funciona h2,
+  .revendedor-como-funciona-conteudo {
+    width: 70%;
+ 
   }
+  .revendedor-como-funciona{
+    width: 70%;
+  }
+
+  revendedor-banner-img{
+    width: 80%;
+  }
+   .revendedor-passo-beneficios-wrapper{
+    width: 70%;
+    padding: 40px 25px 40px 0%;
+   }
+
   .revendedor-icones-wrapper {
     flex-direction: column;
-    margin-top: 20px;
-    gap: 20px;
+    padding: 20px; 
+    gap: 30px;
   }
+
   .revendedor-icone-item {
     width: 150px;
     height: 150px;
     max-width: 250px;
   }
+
   .revendedor-passo-beneficios {
     flex-direction: column;
     align-items: center;
     gap: 30px;
   }
+
   .revendedor-passo-passo,
   .revendedor-beneficios {
-    width: 80%;
+    width: 90%;
     max-width: 350px;
   }
+
   .revendedor-botao {
     width: 80%;
     max-width: 250px;
   }
-}
-
-@media (max-width: 480px) {
-  .revendedor-como-funciona-conteudo {
-    padding: 20px;
-  }
-  .revendedor-passo-passo,
-  .revendedor-beneficios {
-    min-width: auto;
-  }
+  
 }
