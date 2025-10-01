@@ -1,6 +1,8 @@
+// src/components/NavBar.jsx
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Nav.css';
+import logo from '/logo-dona.png';
 
 function NavBar() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -14,7 +16,6 @@ function NavBar() {
         }
     };
 
-   
     const closeMenu = () => {
         setMenuOpen(false);
         document.body.classList.remove('menu-ativo');
@@ -23,6 +24,7 @@ function NavBar() {
     return (
         <header>
             <div className="nav-bar">
+                <img className="logo" src={logo} alt="logo" /> 
                 <nav>
                     <div className="menu-hamburguer" onClick={toggleMenu}>
                         <div className="barra"></div>

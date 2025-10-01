@@ -40,7 +40,7 @@ header {
   margin-top: 30px;
   margin-bottom: 50px;
   padding: 60px 20px 120px 0px;
-  margin : 0;
+ 
 }
 
 .revendedor-banner-img {
@@ -115,8 +115,7 @@ header {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 60px 20px 80px 57px;
-  margin-bottom: 100px;
+  margin-bottom: 180px;
 }
 
 .revendedor-como-funciona h2 {
@@ -246,15 +245,27 @@ header {
 @media (max-width: 768px) {
   
   
-  .revendedor-icones-wrapper,
-  .revendedor-como-funciona h2,
-  .revendedor-como-funciona-conteudo {
-    width: 70%;
  
-  }
-  .revendedor-como-funciona{
-    width: 70%;
-  }
+  .revendedor-como-funciona {
+        width: 90%; 
+        margin: 0 auto; 
+        padding: 0 15px; 
+    }
+
+    .revendedor-como-funciona h2{
+        width: 90%; 
+        margin: 0 auto 20px auto; 
+        text-align: center;
+    }
+    
+
+    .revendedor-como-funciona-conteudo {
+       
+        width: 90%;
+        max-width: none;
+        padding: 30px 20px; 
+    }
+
 
   revendedor-banner-img{
     width: 80%;
@@ -269,6 +280,13 @@ header {
     padding: 20px; 
     gap: 30px;
   }
+
+  .revendedor-passo-passo li,
+    .revendedor-beneficios li {
+        width: 80%;
+        max-width: 200px; 
+        padding: 8px 10px; 
+    }
 
   .revendedor-icone-item {
     width: 150px;
@@ -289,8 +307,15 @@ header {
   }
 
   .revendedor-botao {
-    width: 80%;
-    max-width: 250px;
-  }
+        /* Centraliza o botão dentro do seu contêiner */
+        margin: 48px auto 0; /* O 'auto' centraliza horizontalmente */
+        
+        /* Reduz a largura máxima do botão para que ele não estique tanto */
+        width: 90%; 
+        max-width: 200px; /* Reduza o max-width para um valor mais adequado para mobile */
+        
+        /* Reduza o padding vertical para deixá-lo menos "alto" */
+        padding: 10px 20px;
+    }
   
 }

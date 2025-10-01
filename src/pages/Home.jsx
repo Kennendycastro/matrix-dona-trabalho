@@ -72,7 +72,7 @@ function Home() {
                             </div>
 
                         </div>
-                        {/* Botão abaixo dos itens */}
+                    
                         <button
                             className="btn-revendedor"
                             onClick={() => navigate("/Revendedor")}
