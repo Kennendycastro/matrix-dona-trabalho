@@ -1,7 +1,26 @@
+.banner {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 150px;
+}
+
+
+.banner img {
+  width: 90%;
+  max-width: 1100px;
+  height: auto;
+  display: block;
+}
+
 .sec-produtos {
   display: flex;
   flex-direction: column;
-  padding-top: 50px;
+  padding-top: 1px;
   margin-bottom: 50px;
   text-align: center;
   align-items: center;
@@ -21,7 +40,7 @@
   flex-wrap: wrap;
   gap: 40px;
   padding: 20px;
-  max-width: 852px; 
+  max-width: 852px;
 }
 
 .sec-produtos h1 {
@@ -37,7 +56,7 @@
   border: 1px solid #ddd;
   border-radius: 8px;
 
-  width: 252px;
+  width: 240px;
   height: 300px;
 
   display: flex;
@@ -84,9 +103,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 9999; /* Adicione esta linha */
 }
 
 .modal {
+  position: absolute;
   background: #f4efec;
   border-radius: 12px;
   padding: 20px;
@@ -95,7 +116,7 @@
   max-width: 900px;
   display: flex;
   flex-direction: column;
-  position: relative;
+  z-index: 10000; /* Adicione esta linha */
 }
 
 .fechar {
@@ -131,17 +152,16 @@
 .filtro {
   position: sticky;
   top: 30px;
-  max-width: 300px;
-  max-height: 600px;
+  width: 200px;
+  height: 500px;
   background: #f5f5f5;
   padding: 15px 20px;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  flex: 0 0 200px;
   gap: 10px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  align-self: flex-start; 
+  align-self: flex-start;
 }
 
 .filtro p {
@@ -180,4 +200,195 @@
 .filtro button:hover {
   background: #d9d9d9;
   color: #4a218d;
+}
+
+
+@media (max-width: 1024px) {
+
+  .banner {
+    max-width: auto;
+    height: auto;
+    display: block;
+  }
+
+  .filtro{
+    width: 100%;
+  }
+
+  .sec-produtos {
+    display: block;
+
+    margin: 1em;
+  }
+
+  .produtos {
+    margin: 1em;
+  }
+
+  .card{
+    width: 150px;
+    height: 200px;
+  }
+
+  .card-imagem{
+    width: 60px;
+    height: 60px;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+
+  .produtos-container{
+    gap: 5px;
+  }
+
+  .filtro{
+    width: 100%;
+    max-width: 120px;
+    min-width: 120px;
+
+
+
+
+  }
+  
+  .filtro p{
+    font-size: 11px;
+    text-align: left;
+    padding-right: 10px;
+  }
+
+  .filtro label{
+    font-size: 10px;
+  }
+
+  .card{
+    max-width: 115px;
+  }
+  
+  .card h2{
+    font-size: 15px;
+  }
+
+  .modal {
+    width: 95%;
+    max-width: 98vw;
+    height: auto;
+    min-height: 200px;
+    padding: 10px;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+
+  .modal-content {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .modal-left img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .modal-right h2 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 320px) {
+  .sec-produtos {
+    margin-left: 0;
+    padding: 0 2px;
+  }
+
+  .produtos-container {
+    gap: 2px;
+    width: 100vw;
+    padding: 0 1px;
+    box-sizing: border-box;
+    align-items: flex-start;
+  }
+
+  .filtro {
+    width: 80px;
+    height: auto;
+    padding: 4px 2px;
+    box-sizing: border-box;
+    font-size: 8px;
+    gap: 4px;
+  }
+
+  .filtro p {
+    font-size: 8px;
+    padding-right: 2px;
+  }
+
+  .filtro label {
+    font-size: 7px;
+  }
+
+  .filtro button {
+    padding: 4px 8px;
+    font-size: 8px;
+    border-radius: 4px;
+    margin-top: 6px;
+
+  }
+
+  .produtos {
+    gap: 4px;
+    padding: 2px;
+    max-width: calc(100vw - 60px);
+    justify-content: flex-start;
+  }
+
+  .card {
+    width: 65px;
+    max-width: 65px;
+    min-width: 40px;
+    height: 90px;
+    font-size: 9px;
+    margin: 0;
+    padding: 2px;
+  }
+
+  .card-imagem {
+    width: 28px;
+    height: 28px;
+  }
+
+  .card h2 {
+    font-size: 10px;
+  }
+
+  .card p {
+    font-size: 8px;
+  }
+
+  .modal {
+    width: 98vw;
+    max-width: 98vw;
+    min-width: 0;
+    padding: 5px;
+    height: auto;
+    box-sizing: border-box;
+  }
+
+  .modal-content {
+    gap: 5px;
+  }
+
+  .modal-left img {
+    max-width: 40vw;
+    width: 100%;
+    height: auto;
+  }
+
+  .modal-right h2 {
+    font-size: 12px;
+  }
 }

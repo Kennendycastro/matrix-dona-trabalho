@@ -19,13 +19,13 @@ const Revendedor = () => {
   const passosData = [
     "1.Validar o mercado",
     "2.Testar fornecedores",
-    "3.Organizar precificação",
+    "3.Precificação",
     "4.Lançar vendas",
   ];
 
   const beneficiosData = [
     "Produtos de qualidade",
-    "Variedade e flexibilidade",
+    "Flexibilidade",
     "Confiabilidade",
     "Alta lucratividade",
   ];

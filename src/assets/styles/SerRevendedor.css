@@ -37,9 +37,8 @@ header {
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 30px;
-  margin-bottom: 50px;
-  padding: 60px 20px 120px 0px;
+  margin-top: 60px;
+  margin-bottom: 100px;
  
 }
 
@@ -271,8 +270,8 @@ header {
     width: 80%;
   }
    .revendedor-passo-beneficios-wrapper{
-    width: 70%;
-    padding: 40px 25px 40px 0%;
+    width: 90%;
+    padding: 40px 20px;
    }
 
   .revendedor-icones-wrapper {
@@ -307,14 +306,9 @@ header {
   }
 
   .revendedor-botao {
-        /* Centraliza o botão dentro do seu contêiner */
-        margin: 48px auto 0; /* O 'auto' centraliza horizontalmente */
-        
-        /* Reduz a largura máxima do botão para que ele não estique tanto */
+        margin: 48px auto 0;
         width: 90%; 
-        max-width: 200px; /* Reduza o max-width para um valor mais adequado para mobile */
-        
-        /* Reduza o padding vertical para deixá-lo menos "alto" */
+        max-width: 200px; 
         padding: 10px 20px;
     }
   
