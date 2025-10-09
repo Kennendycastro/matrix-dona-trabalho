@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import HomemNotebook from '../assets/imgs/FaleConosco/homem-notebook.jpg'
+import HomemNotebook from '../assets/Imgs/FaleConosco/homem-notebook.jpg'
 import '../assets/styles/FaleConosco.css';
 
 const FaleConosco = () => {
