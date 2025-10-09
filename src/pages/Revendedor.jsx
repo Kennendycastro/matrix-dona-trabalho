@@ -1,9 +1,9 @@
 import React from "react";
 import "../assets/styles/SerRevendedor.css";
-import BannerRevendedor from "../assets/imgs/SerRevendedor/banner-revendedor.png";
-import Confiavel from "../assets/imgs/SerRevendedor/confiavel-icone.png";
-import EntregaRapida from "../assets/imgs/SerRevendedor/entrega-rapida-icone.png";
-import ProdutosDeQualidade from "../assets/imgs/SerRevendedor/produtos-de-qualidade-icone.png";
+import BannerRevendedor from "../assets/Imgs/SerRevendedor/banner-revendedor.png";
+import Confiavel from "../assets/Imgs/SerRevendedor/confiavel-icone.png";
+import EntregaRapida from "../assets/Imgs/SerRevendedor/entrega-rapida-icone.png";
+import ProdutosDeQualidade from "../assets/Imgs/SerRevendedor/produtos-de-qualidade-icone.png";
 
 const Revendedor = () => {
   const iconesData = [
