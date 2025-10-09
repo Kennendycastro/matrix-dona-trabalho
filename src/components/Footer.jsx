@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 import './Footer.css'; 
 
 import logo from '../assets/Imgs/Footer/logo-dona-icon.ico';
-import whatsapp from '../assets/imgs/Footer/whatsapp-logo.png';
-import instagram from '../assets/imgs/Footer/instagram-logo.png';
-import facebook from '../assets/imgs/Footer/facebook-logo.png';
+import whatsapp from '../assets/Imgs/Footer/whatsapp-logo.png';
+import instagram from '../assets/Imgs/Footer/instagram-logo.png';
+import facebook from '../assets/Imgs/Footer/facebook-logo.png';
 
 const Footer = () => {
   return (
