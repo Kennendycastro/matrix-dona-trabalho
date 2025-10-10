@@ -10,7 +10,7 @@
 }
 .nav-bar ul {
   list-style: none;
-margin: 0; 
+  margin: 0; 
   padding: 0;
   display: flex;
   align-items: center;
@@ -32,25 +32,14 @@ margin: 0;
   transition: 0.4s;
 }
 
-/* Estilos do botão Revendedor */
-.revendedor {
-  background-color: #4a218d;
-  box-sizing: border-box;
-  color: #d9d9d9;
-  padding: 10px;
-}
-
-.revendedor:hover {
-  background: #d9d9d9;
-  color: #4a218d;
-}
 
 .logo {
-  width: 46px;
+  width: 80px;
   height: auto;
 }
 
 a {
+  color: #4a218d;
   text-decoration: none;
 }
 @media (min-width: 1025px) {
@@ -142,7 +131,7 @@ a {
     }
 
     .logo {
-      width: 30px;
+      width: 50px;
     }
   }
 }
