@@ -38,12 +38,12 @@ function Produto() {
   return (
     <>
 
-      <section className="banner">
+      <section className="banner" data-aos="fade-up">
         <img src={Banner} alt="Banner Produtos" />
       </section>
 
       <main>
-        <section className="sec-produtos">
+        <section className="sec-produtos" >
           <h1>Produtos</h1>
           <div className="produtos-container">
 

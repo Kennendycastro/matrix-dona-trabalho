@@ -41,7 +41,13 @@
 a {
   color: #4a218d;
   text-decoration: none;
+ 
 }
+
+a:hover{
+  text-shadow: 0 0 8px #a855f7, 0 0 16px #9333ea, 0 0 24px #7e22ce;
+}
+
 @media (min-width: 1025px) {
     .nav-bar ul {
         gap: 100px; 
