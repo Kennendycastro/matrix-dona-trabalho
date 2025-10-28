@@ -12,12 +12,12 @@ function Home() {
     return (
         <>
 
-            <section className="banner">
+            <section className="banner" data-aos="fade-up">
                 <img src={BannerInicio} alt="banner" />
             </section>
 
             <main>
-                <section className="section">
+                <section className="section" data-aos="fade-up">
                     <div className="sobre-texto">
                         <h1>Quem é <span className="pink">DONA?</span></h1>
                         <hr />
@@ -41,7 +41,7 @@ function Home() {
                         <p>Rápido, fácil e <span className="pink">limpo</span></p>
                         <div className="como-funciona-container">
 
-                            <div className="como-funciona-item">
+                            <div className="como-funciona-item" data-aos="flip-left">
                                 <div className="como-funciona-img">
                                     <img src={Passo1} alt="" />
                                 </div>
@@ -51,7 +51,7 @@ function Home() {
                                 </div>
                             </div>
 
-                            <div className="como-funciona-item">
+                            <div className="como-funciona-item"  data-aos="flip-left">
                                 <div className="como-funciona-img">
                                     <img src={Passo2} />
                                 </div>
@@ -61,7 +61,7 @@ function Home() {
                                 </div>
                             </div>
 
-                            <div className="como-funciona-item">
+                            <div className="como-funciona-item" data-aos="flip-left">
                                 <div className="como-funciona-img">
                                     <img src={Passo3} />
                                 </div>
