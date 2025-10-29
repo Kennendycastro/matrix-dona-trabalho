@@ -32,7 +32,11 @@ const Revendedor = () => {
 
   return (
     <main>
-      <section className="revendedor-banner">
+      <section
+        className="revendedor-banner"
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+      >
         <img
           src={BannerRevendedor}
           alt="Banner Rápido, fácil e limpo!"
@@ -43,7 +47,12 @@ const Revendedor = () => {
       <section className="revendedor-icones">
         <div className="revendedor-icones-wrapper">
           {iconesData.map((icone, index) => (
-            <div className="revendedor-icone-item" key={index}>
+            <div
+              className="revendedor-icone-item"
+              key={index}
+              data-aos="fade-up"
+              data-aos-delay={index * 200}
+            >
               <div className="revendedor-icone-circle">
                 <img src={icone.src} alt={icone.alt} />
               </div>
@@ -53,10 +62,16 @@ const Revendedor = () => {
         </div>
       </section>
 
-      <section className="revendedor-como-funciona">
-        <h2>Como funciona?</h2>
+      <section
+        className="revendedor-como-funciona"
+        data-aos="fade-in"
+        data-aos-duration="1200"
+      >
+        <h2 data-aos="fade-down" data-aos-delay="200">
+          Como funciona?
+        </h2>
         <div className="revendedor-como-funciona-conteudo">
-          <p>
+          <p data-aos="fade-in" data-aos-delay="400">
             O Programa de Revenda da Produtos Dona foi criado para transformar
             oportunidades em resultados. Qualquer pessoa pode se tornar
             revendedora e lucrar com produtos de limpeza de alta qualidade,
@@ -72,19 +87,39 @@ const Revendedor = () => {
 
       <section className="revendedor-passo-beneficios-wrapper">
         <div className="revendedor-passo-beneficios">
-          <div className="revendedor-passo-passo">
+          <div
+            className="revendedor-passo-passo"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
             <h3>Passo a Passo</h3>
             <ul>
               {passosData.map((passo, index) => (
-                <li key={index}>{passo}</li>
+                <li
+                  key={index}
+                  data-aos="fade-right"
+                  data-aos-delay={index * 150 + 200}
+                >
+                  {passo}
+                </li>
               ))}
             </ul>
           </div>
-          <div className="revendedor-beneficios">
+          <div
+            className="revendedor-beneficios"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
             <h3>Benefícios</h3>
             <ul>
               {beneficiosData.map((beneficio, index) => (
-                <li key={index}>{beneficio}</li>
+                <li
+                  key={index}
+                  data-aos="fade-left"
+                  data-aos-delay={index * 150 + 200}
+                >
+                  {beneficio}
+                </li>
               ))}
             </ul>
           </div>
@@ -94,6 +129,8 @@ const Revendedor = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="revendedor-botao"
+          data-aos="zoom-in"
+          data-aos-delay="500"
         >
           Ser Revendedor
         </a>

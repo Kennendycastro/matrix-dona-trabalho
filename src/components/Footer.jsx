@@ -11,9 +11,11 @@ import facebook from '../assets/Imgs/Footer/facebook-logo.png';
 
 const Footer = () => {
   return (
-    <footer>
+    // Adiciona a animação principal ao footer
+    <footer data-aos="fade-up" data-aos-duration="1000"> 
       <div className="footer-top">
-        <div className="footer-mid">
+        {/* Adiciona um atraso para os itens internos aparecerem depois */}
+        <div className="footer-mid" data-aos="fade-in" data-aos-delay="200">
           <div>
             <img className="logo-footer" src={logo} alt="Logo Produtos Dona" />
           </div>
@@ -26,7 +28,8 @@ const Footer = () => {
             </ul>
           </nav>
           <div className="social-icons">
-            <a href="#" target="_blank" aria-label="WhatsApp">
+            {/* Opcional: Você pode adicionar data-aos individualmente aqui também */}
+            <a href="https://wa.me/5511987654321" target="_blank" aria-label="WhatsApp">
               <img src={whatsapp} alt="Ícone do WhatsApp" />
             </a>
             <a href="#" target="_blank" aria-label="Instagram">
@@ -39,7 +42,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="footer-bottom">
+      {/* Animação com um atraso maior para aparecer por último */}
+      <div className="footer-bottom" data-aos="fade-in" data-aos-delay="400"> 
         <p>Produtos Dona © - Todos os direitos reservados • 2025</p>
       </div>
     </footer>
