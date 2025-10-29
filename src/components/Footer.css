@@ -101,6 +101,12 @@ footer {
     width: 40px; 
     height: auto;
     margin: 0;
+    transition: transform 0.3s ease-in-out;
+    display: block;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1); 
 }
 
 .footer-bottom {

@@ -51,13 +51,17 @@ header {
 }
 
 /* Lado da Imagem */
-.imagem-lado {
-  background-image: url('../Imgs/FaleConosco/homem-notebook.jpg');
-  background-size: cover;
-  background-position: center;
-  width: 50%;
-  min-height: 500px;
-  display: block; 
+ .imagem-lado {
+ background-image: url('../Imgs/FaleConosco/homem-notebook.jpg');
+ width: 50%;
+ min-height: 500px;
+ display: block;
+}
+
+.imagem-lado img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
 }
 
 /*  Lado do Formulário */
